@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Geoscience Analytics Services</title></head>
+
+<style>
+
+/* Styling the banner */
+.header-banner {
+    position: relative; /* Important for ::before positioning */
+    background-image: url("geoscience analytics services crop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    text-align: center;
+    color: black;
+    font-family: "Helvetica Neue";
+    overflow: hidden; /* ensures overlay doesn't leak */
+}
+
+.header-banner h1 {
+    font-size: 60px;
+}
+
+.header-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.877); /* adjust opacity for fade */
+    z-index: 1;
+}
+
+.header-banner > * {
+    position: relative; /* text above overlay */
+    z-index: 2;
+}
+
+.header-align {
+    display: flex;            /* make it a flex container */
+    justify-content: center;  /* center the nav horizontally */
+    align-items: center;      /* vertical alignment */
+    gap: 30px;                /* spacing between links */
+    font-family: "Helvetica Neue";
+    font-size: 25px;
+}
+
+.header-align a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header-align a:hover {
+    color: #0077cc;
+}
+
+
+
+/* Generalize the fonts for header and paragraph*/
+.styling {
+    font-family: Helvetica Neue;
+}
+
+
+.styling {
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.project {
+    display: none; /* hide all slides */
+    padding: 20px;
+    background: #a9d0f1;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.project.active {
+    display: block; /* show current slide */
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.arrow.left {
+    left: -50px;
+}
+
+.arrow.right {
+    right: -50px;
+}
+
+.experience {
+    background-color: #a9d0f1; /* light blue, change as you like */
+    padding: 20px 25px;        /* spacing inside the box */
+    border-radius: 10px;       /* rounded corners */
+    margin-bottom: 20px;       /* spacing between blocks */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow for depth */
+}
+
+.experience h3 {
+    margin-top: 0;
+    color: #000204; /* darker heading for contrast */
+}
+
+.experience ul {
+    margin: 10px 0 0 20px;
+}
+
+.experience li {
+    margin-bottom: 8px;
+}
+
+.copy-email {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(247, 247, 247)
+}
+
+
+</style>
+
+
+
+
+
+
+<body>
+
+<nav class = "header-align">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="header-banner">
+
+<h1>Geoscience Analytics Services</h1>
+<p style = "text-align: center; font-family: 'Helvetica Neue'; font-size: 25px;">
+    Professional Geological Solutions for the Oil & Gas Industry
+</p>
+<p style="font-size:30px;">
+    Delivering High-Quality Geological Solutions Safely and Effectively
+</p>
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="styling">
+    <h1 id="about">About Us</h1>
+    <p>
+    <b>GEOSCIENCE ANALYTICS SERVICES</b> provides specialized technical services in operations geology, 
+    sedimentology, and stratigraph - key disciplines that support risk reduction and enhance efficiency
+    across oil and gas exploration, development, and production activities.
+    </p>
+    <p>
+    With nearly <b>40 years of industry experience</b>, the company has contributed to projects across
+    several major geological basins, including the <b>Malay Basin, North Sabah, Sarawak, and the
+    Arabian Basin</b> in the Middle East. This extensive regional exposure brings deep technical
+    insight into subsurface characterization and reservoir behavior.
+    </p>
+    <p>
+    Our mission is <b>to deliver high-quality geological solutions that focus on understanding,
+    characterizing, and managing hydrocarbon reservoirs safely and effectively.</b>
+    </p>
+    <p>
+    We bring strong expertise in:
+    <ul>
+    <li>Operations geology, including wellsite work, well planning, formation evaluation, 
+        pore pressure analysis, and geosteering support.</li>
+    <li>Sedimentology, with emphasis on reservoir characterization and depositional 
+        environment interpretation.</li>
+    <li>Stratigraphy, covering sequence stratigraphy, climate stratigraphy, and well 
+        log correlation.</li>
+    </ul>
+    </p>
+</div>
+
+<div class="styling">
+    <h1 id="services">Our Services</h1>
+
+    <div class="project">
+        <h3>Rock Cuttings Digitalization</h3>
+        <p>
+            High-resolution imaging and systematic digital archiving of rock cuttings to enhance geological
+            interpretation workflows. This service improves data accessibility, consistency, and long-term
+            preservation of physical samples.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Operations Geology Support</h3>
+        <p>
+            End-to-end geological support for drilling activities, including wellsite geology, 
+            formation evaluation, real-time monitoring, pore pressure interpretation, and well planning. 
+            This ensures safer drilling operations and informed decision-making.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Sedimentology & Reservoir Characterization</h3>
+        <p>
+            Detailed analysis of sedimentary facies, depositional environments, and reservoir quality to support 
+            field development planning. This includes integrating core, cuttings, and log data for high-confidence 
+            reservoir interpretations.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Stratigraphy & Well Log Correlation</h3>
+        <p>
+            Comprehensive sequence stratigraphy, climate stratigraphy, and multi-well log correlation studies to 
+            establish robust subsurface frameworks and support exploration-to-development workflows.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Geosteering Services</h3>
+        <p>
+            Real-time geosteering and trajectory adjustment support to optimize well placement within target 
+            reservoirs. This includes structural interpretation, geologic modeling updates, and lateral well 
+            monitoring.
+        </p>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="arrow left">&#10094;</button>
+    <button class="arrow right">&#10095;</button>
+</div>
+
+<div class="styling">
+    <h1 id="projects">Past Projects / Portfolio</h1>
+
+    <div class="experience">
+        <h3>Operations Geology Support - Multi Basin Experience</h3>
+        <ul>
+            <li><b>Role / Responsibility:</b> Lead Operations Geologist providing
+            end-to-end wellsite and drilling support.</li>
+            <li><b>Key Achievements / Tasks:</b> Well planning, formation evaluation,
+            pore pressure analysis, real-time geosteering support; supervised drilling
+            across multiple wells; integrated geological and operational data for
+            safe and efficient drilling.</li>
+            <li><b>Regions / Basins:</b> Malay Basin, North Sabah, Sarawak (Malaysia),
+            Arabian Basin (Saudi Arabia)</li>
+        </ul>
+    </div>
+
+    <div class="experience">
+        <h3>Sedimentology & Reservoir Characterization - Multi-Basin Experience</h3>
+        <ul>
+            <li><b>Role / Responsibility:</b> Senior Sedimentologist providing detailed
+            reservoir analysis and depositional environment interpretation.</li>
+            <li><b>Key Achievements / Tasks:</b> Analyzed cores, cuttings, and well
+            logs; supported field development planning; produced detailed
+            sedimentology reports integrated with geological modeling.</li>
+            <li><b>Regions / Basins:</b> Malay Basin, North Sabah, Sarawak (Malaysia),
+            Arabian Basin (Saudi Arabia)</li>
+        </ul>
+    </div>
+
+    <div class="experience">
+        <h3>Stratigraphy & Well Log Correlation - Multi-Basin Experience</h3>
+        <ul>
+            <li><b>Role / Responsibility:</b> Lead Stratigrapher performing sequence
+            and climate stratigraphy analyses and multi-well log correlation studies.</li>
+            <li><b>Key Achievements / Tasks:</b> Established robust subsurface frameworks;
+            provided well log correlations; integrated stratigraphic data with sedimentology
+            and operations geology for full reservoir understanding.</li>
+            <li><b>Regions / Basins:</b> Malay Basin, North Sabah, Sarawak (Malaysia),
+            Arabian Basin (Saudi Arabia)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="styling">
+    <h1 id="contact">Contact Us</h1>
+    <p>
+        <b>Email:</b>
+        raja_azlan_ismail@yahoo.com
+    </p>
+    <p>
+        <b>Phone:</b> 
+        +6012-326 7180
+    </p>
+    <p>
+        <b>LinkedIn:</b>
+        <a href="https://www.linkedin.com/in/raja-azlan-raja-ismail-p-geol-076a95a/?originalSubdomain=my" target="_blank">
+        Raja Azlan Raja Ismail
+        </a>
+    </p>
+
+
+<script>
+
+const projects = document.querySelectorAll('.project');
+const leftArrow = document.querySelector('.arrow.left');
+const rightArrow = document.querySelector('.arrow.right');
+
+let current = 0;
+
+function showProject(index) {
+    projects.forEach(p => p.classList.remove('active'));
+    projects[index].classList.add('active');
+}
+
+// Show first project on load
+showProject(current);
+
+// Left arrow
+leftArrow.addEventListener('click', () => {
+    current = (current === 0) ? projects.length - 1 : current - 1;
+    showProject(current);
+});
+
+// Right arrow
+rightArrow.addEventListener('click', () => {
+    current = (current === projects.length - 1) ? 0 : current + 1;
+    showProject(current);
+});
+
+// Keyboard support
+document.addEventListener('keydown', (e) => {
+    if(e.key === "ArrowLeft") leftArrow.click();
+    if(e.key === "ArrowRight") rightArrow.click();
+});
+</script>
+
+
+
+</div>
+</body>
+</html>
